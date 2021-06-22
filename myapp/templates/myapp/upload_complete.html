@@ -1,0 +1,6 @@
+<!-- upload_complete.html -->
+{% block content %}
+<h1>推論完了</h1>
+    <a href="{% url 'myapp:upload' %}"><button>戻る</button></a>
+    <a href="{% url 'myapp:csv_export' %}" class="btn btn-primary">ダウンロード</a>
+{% endblock %}
